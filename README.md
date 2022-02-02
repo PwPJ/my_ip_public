@@ -20,7 +20,7 @@ If you don't have this library on your system, try the command below
 
     ```make install```
 
-   *Note* : You may need to use ```sudo make install```
+   *Note* : You may need to use ```sudo make install```  or if you are on windows you can use see [```this```](https://superuser.com/a/808818)
 2. Whenever you need this project in your program, just import it 
 
     ```import my_ip_public```
