@@ -1,10 +1,10 @@
 # My Public IP
 
 ## About The Project
-This program will give you, your **Public IP**
+This library will give you, your **Public IP**
 
 ### Build With
-* Python
+* Python 3.x
 
 ## Getting Started
 Go to the Project Directory
@@ -13,14 +13,14 @@ Go to the Project Directory
 For installing setup.py you need ```setuptools``` python library
 If you don't have this library on your system, try the command below
 
-```pip install setuptools```
+```pip install setuptools``` or ```pip3 install setuptools```
 
 ### Installation
-1. While you're in Project Directory, write the message below in the terminal
+1. While you're in **Project Directory**, write the message below in the terminal
 
     ```make install```
 
-   *Note* : You can also use ```sudo make install```
+   *Note* : You may need to use ```sudo make install```
 2. Whenever you need this project in your program, just import it 
 
     ```import my_ip_public```
@@ -30,12 +30,12 @@ If you don't have this library on your system, try the command below
 * [```my_ip_public.my_ip_com()```](https://myip.com)
 * [```my_ip_public.my_ip_io()```](https://my-ip.io)
 
-4. You can always clean this, by ```make clean``` command
+4. You can always clean this, by ```make clean``` command while you are in the **Project Directory**
 
 ### Usage
 This is the example of how to use them
 ```
-muhammadmahdi:~/MyFiles/git/13/my_ip_public$ python3
+.../my_ip_public$ python3
 Python 3.8.10 (default, Sep 28 2021, 16:10:42) 
 [GCC 9.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
