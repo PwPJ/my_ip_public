@@ -2,7 +2,9 @@
 
 ## About The Project
 This library will give you, your **Public IP**
-
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Programming-with-Pouriya-2021/my_ip_public">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/Programming-with-Pouriya-2021/my_ip_public?style=social">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Programming-with-Pouriya-2021/my_ip_public?style=social">
 ### Build With
 * Python 3.x
 
