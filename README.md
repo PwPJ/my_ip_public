@@ -1,41 +1,34 @@
 # My Public IP
 
-## About The Project
-This library will give you, your **Public IP**
+My Public IP is a Python program that provides you with the possibility of getting your public IP address.
 
-### Build With
-* Python 3.x
+## Prerequisites
 
-## Getting Started
-Go to the Project Directory
+Install setuptools befor run setup.py
 
-### Prerequisites
-For installing setup.py you need ```setuptools``` python library
-If you don't have this library on your system, try the command below
-
-```pip install setuptools``` or ```pip3 install setuptools```
-
-### Installation
-1. While you're in **Project Directory**, write the message below in the terminal
-
-    ```make install```
-
-
-   *Note* : You may need to use ```sudo make install```  or if you are on windows you can use see [```this```](https://superuser.com/a/808818)
-2. Whenever you need this project in your program, just import it 
-
-    ```import my_ip_public```
-3. You can call these three functions to get your public IP from 3 diffrent providers
-
-* [```my_ip_public.ipify_org()```](https://ipify.org)
-* [```my_ip_public.my_ip_com()```](https://myip.com)
-* [```my_ip_public.my_ip_io()```](https://my-ip.io)
-
-4. You can always clean this, by ```make clean``` command while you are in the **Project Directory**
-
-### Usage
-This is the example of how to use them
+```bash
+pip3 install setuptools
 ```
+
+## Installation
+
+you can refer to makefile and use bellow commands for install and clean project :
+
+### Install
+
+```bash
+python3 setup.py install
+```
+
+### Clean
+
+```bash
+rm -rf my_ip_public.egg-info dist build my_ip_public/__pycache__ my_ip_public/providers/__pycache__/
+```
+
+## Usage
+
+```python
 .../my_ip_public$ python3
 Python 3.8.10 (default, Sep 28 2021, 16:10:42) 
 [GCC 9.3.0] on linux
@@ -50,11 +43,20 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
 
-## Acknowledgments
-Some links that you may find helpful
+## Contributing
 
-* [init.py](https://timothybramlett.com/How_to_create_a_Python_Package_with___init__py.html)
-* [Python Library Structure](https://docs.python-guide.org/writing/structure/)
-* [Python Json Library](https://docs.python.org/3/library/json.html)
-* [Http Library in python](https://docs.python.org/2/library/httplib.html)
-* [Http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Acknowledgements
+
+Whenever you need to use this program, just import it.
+
+```bash
+import my_ip_public
+```
+
+## License
+
+[Creativecommons](https://creativecommons.org/licenses/by/2.0/)
