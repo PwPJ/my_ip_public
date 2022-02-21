@@ -58,3 +58,7 @@ Some links that you may find helpful
 * [Python Json Library](https://docs.python.org/3/library/json.html)
 * [Http Library in python](https://docs.python.org/2/library/httplib.html)
 * [Http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
+
+## My changes
+I believe this README.md file is pretty good, and I couldn't add anything more to it.
