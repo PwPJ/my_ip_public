@@ -1,7 +1,7 @@
 # My Public IP
 
 ## About The Project
-This library will give you, your **Public IP**
+This repository helps you find your *public IP* using a simple python library. The only thing you need to do is to follow the instructions bellow to bould the library on your local system and simply *import* it when ever you need it.
 
 ### Build With
 * Python 3.x
