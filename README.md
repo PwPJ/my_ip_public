@@ -1,7 +1,7 @@
 # My Public IP
 
 ## About The Project
-This library will give you, your **Public IP**
+This repository helps you find your *public IP* using a simple python library. The only thing you need to do is to follow the instructions bellow to build the library on your local system and simply *import* it whenever you need it.
 
 ### Build With
 * Python 3.x
@@ -22,7 +22,7 @@ If you don't have this library on your system, try the command below
 
 
    *Note* : You may need to use ```sudo make install```  or if you are on windows you can use see [```this```](https://superuser.com/a/808818)
-2. Whenever you need this project in your program, just import it 
+2. Whenever you need this project in your program, just import it
 
     ```import my_ip_public```
 3. You can call these three functions to get your public IP from 3 diffrent providers
@@ -37,7 +37,7 @@ If you don't have this library on your system, try the command below
 This is the example of how to use them
 ```
 .../my_ip_public$ python3
-Python 3.8.10 (default, Sep 28 2021, 16:10:42) 
+Python 3.8.10 (default, Sep 28 2021, 16:10:42)
 [GCC 9.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import my_ip_public
@@ -47,7 +47,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 (True, 'Your Public IP')
 >>> my_ip_public.my_ip_io()
 (True, b'Your Public IP')
->>> 
+>>>
 ```
 
 ## Acknowledgments
@@ -58,3 +58,8 @@ Some links that you may find helpful
 * [Python Json Library](https://docs.python.org/3/library/json.html)
 * [Http Library in python](https://docs.python.org/2/library/httplib.html)
 * [Http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
+
+#### To Contribute
+
+You are more than welcome to contribute to the repository. Fork the repository to create your own changes and simply make the *pull request* following the instructions [here](https://www.atlassian.com/git/tutorials/making-a-pull-request)
