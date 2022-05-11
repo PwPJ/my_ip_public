@@ -1,40 +1,35 @@
 # My Public IP
 
-## About The Project
-This repository helps you find your *public IP* using a simple python library. The only thing you need to do is to follow the instructions bellow to build the library on your local system and simply *import* it whenever you need it.
+"My Public IP" is a python 3.x library which you can use to find your IP.You can build this library on your system by using the instructions below:
 
-### Build With
-* Python 3.x
+## Requirments
+ 1)You will need ```setuptools``` for installing setup.py. In case you don't have this library you can use the commands below:
 
-## Getting Started
-Go to the Project Directory
+	```pip install setuptools``` or ```pip3 install setuptools```
 
-### Prerequisites
-For installing setup.py you need ```setuptools``` python library
-If you don't have this library on your system, try the command below
+ 2)You have to have your project directory open while you are doing the steps below.
 
-```pip install setuptools``` or ```pip3 install setuptools```
+## Installation
+ Step1:Make sure your project directory is open.
+ Step2:Type the command below in your terminal:
 
-### Installation
-1. While you're in **Project Directory**, write the message below in the terminal
+ 	```make install```
+    *Note*:you may need to use your root account by using the command below  ```sudo make install```  or if you are on windows you can see [```this```](https://superuser.com/a/808818)
 
-    ```make install```
-
-
-   *Note* : You may need to use ```sudo make install```  or if you are on windows you can use see [```this```](https://superuser.com/a/808818)
-2. Whenever you need this project in your program, just import it
+ Step3: Whenever you need this project in your program, just import it:
 
     ```import my_ip_public```
-3. You can call these three functions to get your public IP from 3 diffrent providers
+ Step4:You can call these three functions to get your public IP from 3 diffrent providers
 
-* [```my_ip_public.ipify_org()```](https://ipify.org)
-* [```my_ip_public.my_ip_com()```](https://myip.com)
-* [```my_ip_public.my_ip_io()```](https://my-ip.io)
+ * [```my_ip_public.ipify_org()```](https://ipify.org)
+ * [```my_ip_public.my_ip_com()```](https://myip.com)
+ * [```my_ip_public.my_ip_io()```](https://my-ip.io)
 
-4. You can always clean this, by ```make clean``` command while you are in the **Project Directory**
+ step5:Type ```make clean``` at the command line to get rid of your object and executable files but make sure that project directory is still open.
 
-### Usage
-This is the example of how to use them
+## Usage
+ This is a script that you can read to understand how to use this library:
+
 ```
 .../my_ip_public$ python3
 Python 3.8.10 (default, Sep 28 2021, 16:10:42)
@@ -50,8 +45,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-## Acknowledgments
-Some links that you may find helpful
+### Acknowledgments
+You can also use the links below for more help:
 
 * [init.py](https://timothybramlett.com/How_to_create_a_Python_Package_with___init__py.html)
 * [Python Library Structure](https://docs.python-guide.org/writing/structure/)
@@ -59,7 +54,6 @@ Some links that you may find helpful
 * [Http Library in python](https://docs.python.org/2/library/httplib.html)
 * [Http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 
-
 #### To Contribute
 
-You are more than welcome to contribute to the repository. Fork the repository to create your own changes and simply make the *pull request* following the instructions [here](https://www.atlassian.com/git/tutorials/making-a-pull-request)
+If you think you can make this file better so please make a *pull request* [here](https://www.atlassian.com/git/tutorials/making-a-pull-request)
